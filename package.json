@@ -1,15 +1,17 @@
 {
     "name": "@shopware-ag/storybook-addon-shopware",
     "version": "1.0.0",
-    "description": "",
+    "description": "Shopware addon for Storybook",
     "keywords": [
         "storybook",
-        "addons"
+        "addons",
+        "shopware"
     ],
     "scripts": {
+        "prepare": "npm run build",
         "build": "babel ./src --out-dir ./dist"
     },
-    "author": "",
+    "author": "klarstil",
     "license": "MIT",
     "devDependencies": {
         "vue": "^2.6.10",
