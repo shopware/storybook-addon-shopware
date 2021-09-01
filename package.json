@@ -1,0 +1,35 @@
+{
+    "name": "@shopware-ag/storybook-addon-shopware",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [
+        "storybook",
+        "addons"
+    ],
+    "scripts": {
+        "build": "babel ./src --out-dir ./dist"
+    },
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "vue": "^2.6.10",
+        "vue-docgen-api": "^4.1.1"
+    },
+    "peerDependencies": {
+        "vue-docgen-api": ">=3",
+        "webpack": ">=4"
+    },
+    "dependencies": {
+        "@babel/cli": "^7.14.8",
+        "@babel/preset-env": "^7.15.0",
+        "@babel/preset-react": "^7.14.5",
+        "clone": "^2.1.2",
+        "espree": "^8.0.0",
+        "jscodeshift": "^0.13.0",
+        "loader-utils": "^2.0.0",
+        "pretty": "^2.0.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "twig": "1.13.3"
+    }
+}
